@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>Version</key>
+        <integer>2</integer>
+        <key>Extension Identifier</key>
+        <string>com.jasonbell.popclip.extension.drupalapi</string>
+        <key>Extension Name</key>
+        <string>Drupal API</string>
+        <key>Extension Image File</key>
+        <string>DrupalIcon.png</string>
+        <key>Extension Description</key>
+        <string>Open Drupal API reference in a web browser with the selected text.</string>
+        <key>Actions</key>
+        <array>
+                <dict>
+                        <key>Title</key>
+                        <string>Drupal API</string>
+                        <key>Image File</key>
+                        <string>DrupalIcon.png</string>
+                        <key>URL</key>
+                        <string>http://api.drupal.org/api/search/7/{popclip text}</string>
+                        <key>Regular Expression</key>
+                        <string>(?s)^.{1,1900}$</string>
+                </dict>
+        </array>
+        <key>Credits</key>
+        <array>
+                <key>Name</key>
+                <string>Jason Bell</string>
+                <key>Link</key>
+                <string>http://jgb.me</string>
+        </array>
+</dict>
+</plist>
